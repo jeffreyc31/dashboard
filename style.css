@@ -24,7 +24,9 @@ div {
 #sidebar {
     grid-area: 1/1/3/2;
     display: grid;
-    grid-template-rows: 50px 1fr 1fr;
+    grid-template-rows: 90px 1fr 1fr;
+    background-color: #164e63;
+    color: white;
 }
 
 #header {
@@ -40,11 +42,16 @@ div {
 
 li {
     list-style-type: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-h2 {
+#sidebar h2 {
     align-self: center;
     padding-left: 15px;
+    font-size: 2rem;
 }
 
 #wrapper {
@@ -58,7 +65,7 @@ h2 {
 }
 
 #settings {
-    align-self: flex-start;
+    align-self: center;
     padding-left: 15px;
 }
 
@@ -88,7 +95,10 @@ h2 {
     display: flex;
 }
 
-#welcome-message {}
+#welcome-message {
+    align-self: center;
+    padding-left: 15px;
+}
 
 #buttons {
     grid-area: 2/2/3/3;
