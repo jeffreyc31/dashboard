@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/** page layout styling**/
+
+body {
+    display: grid;
+    min-height: 100vh;
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+nav,
+div {
+    border: solid #000;
+    border-width: 1px;
+}
+
+#sidebar {
+    grid-area: 1/1/3/2;
+}
+
+#header {
+    grid-area: 1/2/2/3;
+}
+
+#dashboard {
+    grid-area: 2/2/3/3;
+}
