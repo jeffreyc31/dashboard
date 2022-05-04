@@ -105,7 +105,10 @@ h2 {
 }
 
 
-/*dashboard styling*/
+/*DASHBOARD STYLING*/
+
+
+/*project styling*/
 
 #dashboard {
     display: grid;
@@ -137,4 +140,20 @@ h2 {
 
 #project-header {
     padding-left: 40px;
+}
+
+
+/*announcement styling*/
+
+#announcements {
+    grid-area: 2/2/3/3;
+    padding-right: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.announce-wrapper {
+    padding: 15px;
+    height: 50px;
 }
