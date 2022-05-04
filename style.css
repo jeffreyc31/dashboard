@@ -60,3 +60,46 @@ h2 {
     align-self: flex-start;
     padding-left: 15px;
 }
+
+
+/* header styling */
+
+#header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#search {
+    grid-area: 1/1/2/2;
+    padding-left: 15px;
+}
+
+#profile {
+    grid-area: 1/2/2/3;
+    align-self: center;
+    justify-self: flex-end;
+    padding-right: 40px;
+}
+
+#welcome {
+    grid-area: 2/1/3/2;
+    display: flex;
+}
+
+#welcome-message {}
+
+#buttons {
+    grid-area: 2/2/3/3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.header-button {
+    justify-self: center;
+    min-width: 60px;
+    max-width: 60px;
+}
