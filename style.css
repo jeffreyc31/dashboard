@@ -103,3 +103,38 @@ h2 {
     min-width: 60px;
     max-width: 60px;
 }
+
+
+/*dashboard styling*/
+
+#dashboard {
+    display: grid;
+    grid-template-columns: 2.25fr .75fr;
+    grid-template-rows: 50px 1fr 1fr;
+}
+
+#projects {
+    grid-area: 2 / 1 / span 2 / 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px 40px 40px;
+}
+
+.card {
+    height: 120px;
+    background-color: gray;
+}
+
+#project-header,
+#announce-header {
+    padding-top: 20px;
+    text-align: start;
+}
+
+#project-header {
+    padding-left: 40px;
+}
