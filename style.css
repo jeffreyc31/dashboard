@@ -197,6 +197,7 @@ li {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    font-size: .9rem;
 }
 
 #announcements :first-child {
