@@ -6,6 +6,7 @@
 :root {
     --main-color: #164e63;
     --background-color: #e5e7eb;
+    --secondary-text-color: #4b5563;
 }
 
 
@@ -163,6 +164,7 @@ li {
 .card p {
     font-size: .9rem;
     padding-top: 5px;
+    color: var(--secondary-text-color);
 }
 
 .card-text {
@@ -211,6 +213,10 @@ li {
     background-color: white;
 }
 
+.announce-wrapper p {
+    color: var(--secondary-text-color);
+}
+
 
 /*trending styling*/
 
@@ -225,6 +231,7 @@ li {
     height: 10px;
     padding: 15px 20px 20px 15px;
     background-color: white;
+    color: var(--secondary-text-color);
 }
 
 #trend-wrapper p {}
