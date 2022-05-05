@@ -115,18 +115,20 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 20px;
+    gap: 5px;
     padding: 10px;
 }
 
 .header-button {
     justify-self: center;
-    min-width: 60px;
-    max-width: 60px;
-}
-
-button {
-    background-color: #fff;
+    min-width: 80px;
+    max-width: 80px;
+    background-color: var(--main-color);
+    color: white;
+    border: 0;
+    height: 35px;
+    border-radius: 15px;
+    font-weight: 400;
 }
 
 
