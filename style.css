@@ -226,5 +226,17 @@ li {
 }
 
 .trend-wrapper {
-    padding: 0 20px 20px 0;
+    height: 10px;
+    padding: 10px 20px 20px 0;
+    background-color: white;
+}
+
+#trend-card :first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#trend-card :last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
