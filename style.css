@@ -180,6 +180,7 @@ li {
 #project-header,
 #announce-header {
     padding-top: 20px;
+    padding-bottom: 30px;
     text-align: start;
 }
 
@@ -198,9 +199,20 @@ li {
     flex-direction: column;
 }
 
+#announcements :first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#announcements :last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 .announce-wrapper {
     padding: 15px;
     height: 50px;
+    background-color: white;
 }
 
 
