@@ -207,7 +207,7 @@ li {
 }
 
 .announce-wrapper {
-    padding: 15px;
+    padding: 25px 30px;
     height: 50px;
     background-color: white;
 }
@@ -228,9 +228,11 @@ li {
 
 .trend-wrapper {
     height: 10px;
-    padding: 15px 20px 20px 15px;
+    padding: 15px 30px 15px 30px;
     background-color: white;
     color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
 }
 
 #trend-wrapper p {}
@@ -238,9 +240,11 @@ li {
 #trend-card :first-child {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    padding-top: 20px;
 }
 
 #trend-card :last-child {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding-bottom: 20px;
 }
