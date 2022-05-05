@@ -79,8 +79,14 @@ li {
 }
 
 #search {
+    margin: 0 40px;
     grid-area: 1/1/2/2;
     padding-left: 15px;
+    align-self: center;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
 }
 
 #profile {
