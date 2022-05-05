@@ -158,7 +158,8 @@ li {
 
 .card {
     height: 120px;
-    background-color: gray;
+    background-color: white;
+    border-radius: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
