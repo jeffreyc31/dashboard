@@ -4,7 +4,8 @@
 }
 
 :root {
-    --main-color: #164e63
+    --main-color: #164e63;
+    --background-color: #e2e8f0;
 }
 
 
@@ -141,6 +142,7 @@ li {
     display: grid;
     grid-template-columns: 2.25fr .75fr;
     grid-template-rows: 50px 1fr 1fr;
+    background-color: var(--background-color);
 }
 
 #projects {
