@@ -106,6 +106,18 @@ li img {
     width: 100%;
 }
 
+#user-nav {
+    grid-area: 1/2/2/3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+#profile-pic-1 {
+    width: 40px;
+}
+
 #profile {
     grid-area: 1/2/2/3;
     align-self: center;
